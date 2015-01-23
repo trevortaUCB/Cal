@@ -1,0 +1,12 @@
+#include "functions.h"
+
+int fibonacci(int n) {
+
+}
+
+int fibonacci(int n, int i) {
+    if (i == 0) {
+        return n;
+    }
+    return n + fibonacci(n - 1, i - 1);
+}
